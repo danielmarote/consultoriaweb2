@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</head>
+<body>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: "git-gateway",
+          branch: "main",
+        },
+        media_folder: "public/uploads",
+        public_folder: "/uploads",
+        collections: [
+          {
+            name: "pages",
+            label: "Páginas",
+            files: [
+              {
+                label: "Página de Inicio",
+                name: "home",
+                file: "content/home.json",
+                fields: [
+                  { label: "Título Hero", name: "hero_title", widget: "string" },
+                  { label: "Subtítulo Hero", name: "hero_subtitle", widget: "string" },
+                  { label: "Texto Botón Hero", name: "hero_button_text", widget: "string" },
+                  { label: "Subtexto Hero", name: "hero_subtext", widget: "string" },
+                  { label: "Sección Clientes Título", name: "clients_title", widget: "string" },
+                  { label: "Sección Clientes Descripción", name: "clients_description", widget: "string" },
+                  { label: "Logos de Clientes", name: "client_logos", widget: "list", fields: [
+                    { label: "Nombre", name: "name", widget: "string" },
+                    { label: "Logo", name: "src", widget: "image" }
+                  ]},
+                  { label: "Fundador - Nombre", name: "founder_name", widget: "string"},
+                  { label: "Fundador - Título", name: "founder_title", widget: "string"},
+                  { label: "Fundador - Biografía", name: "founder_bio", widget: "list", item: "string"},
+                  { label: "Fundador - Imagen", name: "founder_image", widget: "image"},
+                  { label: "CTA Título", name: "cta_title", widget: "string"},
+                  { label: "CTA Descripción", name: "cta_description", widget: "string"},
+                  { label: "CTA Texto Botón", name: "cta_button_text", widget: "string"}
+                ]
+              },
+              {
+                label: "Blog",
+                name: "blog",
+                file: "content/blog.json",
+                fields: [
+                  {
+                    label: "Artículos del Blog",
+                    name: "posts",
+                    widget: "list",
+                    fields: [
+                      { label: "Slug (URL amigable, ej: mi-primer-articulo)", name: "slug", widget: "string" },
+                      { label: "Título", name: "title", widget: "string" },
+                      { label: "Descripción (para SEO)", name: "description", widget: "string" },
+                      { label: "Imagen de Portada", name: "image", widget: "image" },
+                      { label: "Fecha de Publicación", name: "date", widget: "datetime" },
+                      { label: "Autor", name: "author", widget: "string" },
+                      { label: "Contenido", name: "body", widget: "markdown" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    });
+  </script>
+</body>
+</html>

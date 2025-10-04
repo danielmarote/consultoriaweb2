@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConsultorIA - Soluciones de Inteligencia Artificial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Netlify Identity Widget for CMS Authentication -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- Marked library for Markdown to HTML conversion -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        @keyframes progress-animation {
+            from { stroke-dashoffset: 314; }
+        }
+        .progress-circle {
+            animation: progress-animation 2s ease-out forwards;
+        }
+        @keyframes subtle-rotate {
+            0%, 100% { transform: rotate(0); }
+            25% { transform: rotate(-8deg); }
+            75% { transform: rotate(8deg); }
+        }
+        @keyframes bar-grow {
+            0%, 100% { transform: scaleY(1); }
+            50% { transform: scaleY(1.15); }
+        }
+        @keyframes subtle-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { scale(1.1); }
+        }
+        @keyframes target-pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { scale(1); }
+        }
+        .group:hover .icon-briefcase { animation: subtle-rotate 0.6s ease-in-out; }
+        .group:hover .icon-clock { animation: subtle-rotate 1.2s ease-in-out infinite alternate; }
+        .group:hover .icon-barchart { transform-origin: bottom; animation: bar-grow 1.2s ease-in-out infinite alternate; }
+        .group:hover .icon-usergroup { animation: subtle-pulse 0.6s ease-in-out; }
+        .group:hover .icon-target { animation: target-pulse 1.5s ease-in-out infinite; }
+        .icon-codebracket > polyline { transition: transform 0.3s ease-out; }
+        .group:hover .icon-codebracket > polyline:first-child { transform: translateX(4px) scale(0.9); }
+        .group:hover .icon-codebracket > polyline:last-child { transform: translateX(-4px) scale(0.9); }
+        .group:hover .icon-presentationchart { animation: subtle-pulse 1.5s ease-in-out infinite; }
+        @keyframes marquee {
+          from { transform: translateX(0); }
+          to { transform: translateX(-50%); }
+        }
+        .animate-marquee { animation: marquee 80s linear infinite; }
+        .animate-marquee:hover { animation-play-state: paused; }
+        .client-logo-img { filter: grayscale(100%); transition: filter 0.3s ease; }
+        .client-logo-img:hover { filter: grayscale(0%); }
+        @media (prefers-reduced-motion: reduce) {
+          .animate-marquee { animation-play-state: paused; }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.4",
+    "vite": "https://aistudiocdn.com/vite@^7.1.7"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+</body>
+</html>

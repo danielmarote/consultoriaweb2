@@ -1,0 +1,51 @@
+
+[
+  {
+    "slug": "ia-para-empresas",
+    "title": "IA para Empresas: 5 Formas de Aumentar tu Eficiencia Hoy Mismo",
+    "description": "Descubre cómo la Inteligencia Artificial puede transformar tus operaciones, reducir costes y liberar el potencial de tu equipo.",
+    "image": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?q=80&w=2070&auto=format&fit=crop",
+    "date": "2024-07-10T10:00:00.000Z",
+    "author": "Daniel Marote"
+  },
+  {
+    "slug": "roi-de-la-ia",
+    "title": "El ROI de la Inteligencia Artificial: Cómo Calcular el Retorno de tu Inversión",
+    "description": "Implementar IA es una inversión estratégica. Aprende a medir su impacto real y a justificar su valor para tu organización.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    "date": "2024-07-08T10:00:00.000Z",
+    "author": "Daniel Marote"
+  },
+  {
+    "slug": "automatizacion-inteligente-rpa",
+    "title": "Automatización Inteligente (RPA) vs. Tareas Manuales: La Batalla por la Productividad",
+    "description": "Compara el antes y el después de la automatización robótica de procesos y entiende cómo puede revolucionar tu flujo de trabajo.",
+    "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2070&auto=format&fit=crop",
+    "date": "2024-07-05T10:00:00.000Z",
+    "author": "Daniel Marote"
+  },
+  {
+    "slug": "poder-del-nlp",
+    "title": "Más Allá de los Chatbots: El Verdadero Poder del NLP para tu Negocio",
+    "description": "El Procesamiento del Lenguaje Natural puede analizar sentimientos, resumir documentos y optimizar la comunicación. Explora sus aplicaciones.",
+    "image": "https://images.unsplash.com/photo-1587573089734-09415c009fee?q=80&w=2070&auto=format&fit=crop",
+    "date": "2024-07-02T10:00:00.000Z",
+    "author": "Daniel Marote"
+  },
+  {
+    "slug": "preparar-equipo-ia",
+    "title": "Cómo Preparar a tu Equipo para la Transformación Digital con IA",
+    "description": "La tecnología es solo una parte de la ecuación. El éxito de la IA depende de una cultura de innovación y un equipo capacitado.",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop",
+    "date": "2024-06-28T10:00:00.000Z",
+    "author": "Daniel Marote"
+  },
+  {
+    "slug": "ia-etica",
+    "title": "IA Ética: Por Qué la Responsabilidad es Clave para el Éxito a Largo Plazo",
+    "description": "Construir una IA justa, transparente y responsable no es solo lo correcto, es una ventaja competitiva que genera confianza.",
+    "image": "https://images.unsplash.com/photo-1507146153580-69a196d2ba22?q=80&w=2070&auto=format&fit=crop",
+    "date": "2024-06-25T10:00:00.000Z",
+    "author": "Daniel Marote"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "hero_title": "Inteligencia Artificial para la <span class=\"block text-indigo-600\">Excelencia Empresarial</span>",
+  "hero_subtitle": "Diseñamos soluciones de IA a medida que transforman la eficiencia y rentabilidad de tu organización, sin añadir complejidad.",
+  "hero_button_text": "Pide Cita Gratis de Asesoramiento",
+  "hero_subtext": "Por Daniel Marote - Fundador de ConsultorIA",
+  "clients_title": "Confían en nuestra experiencia",
+  "clients_description": "Hemos tenido el privilegio de colaborar con algunas de las marcas más reconocidas a nivel mundial.",
+  "client_logos": [
+    { "name": "Adidas", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Adidas" },
+    { "name": "Brother", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Brother" },
+    { "name": "Canon", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Canon" },
+    { "name": "Iberia", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Iberia" },
+    { "name": "IE Business School", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=IE+Business+School" },
+    { "name": "Mahou San Miguel", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Mahou+San+Miguel" },
+    { "name": "Pernod Ricard", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Pernod+Ricard" },
+    { "name": "Siemens", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Siemens" },
+    { "name": "Starbucks", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Starbucks" },
+    { "name": "Telefónica Móviles", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Telef%C3%B3nica" },
+    { "name": "Zara", "src": "https://placehold.co/200x80/f1f5f9/64748b?text=Zara" }
+  ],
+  "founder_name": "Daniel Marote",
+  "founder_title": "Bienvenidos al Futuro Empresarial",
+  "founder_bio": [
+    "Experto en inteligencia artificial y consultoría estratégica, con una trayectoria sobresaliente en la implementación de soluciones tecnológicas para transformar negocios.",
+    "Como CEO de ConsultorPRO y Alppoiting, ha ayudado a empresas a escalar sus ventas y mejorar su eficiencia operativa mediante el uso de IA y automatización.",
+    "Con más de 400 proyectos ejecutados en 25 países, ha colaborado con marcas de renombre como Starbucks, Michelin, Telefónica y Siemens, posicionándose como un líder en innovación tecnológica aplicada al crecimiento empresarial."
+  ],
+  "founder_image": "/uploads/founder-daniel-marote.jpg",
+  "cta_title": "Hablemos de cómo hacer tu negocio más eficiente y rentable.",
+  "cta_description": "Transforma tu organización con inteligencia artificial. El futuro de tu negocio comienza con una conversación.",
+  "cta_button_text": "Pide Cita Gratis de Asesoramiento"
+}
